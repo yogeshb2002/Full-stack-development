@@ -1,0 +1,78 @@
+body{
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+.header{
+    background-color: rgb(255, 136, 0);
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 1mm 1mm ;
+}
+
+.PersonalSection{
+    color: white;
+    font-size: 120%;
+}
+
+.PersonalSection h2{
+    background-color:rgb(255, 136, 0);
+    padding: 2mm 2mm;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.PaymentSection{
+    color: white;
+    font-size: 120%;
+}
+
+.PaymentSection h2{
+    background-color:rgb(255, 136, 0);
+    padding: 2mm 2mm;
+    width: fit-content;
+    font-weight: bold;
+}
+
+input[type="button"]{
+    color: white;
+    background-color: black;
+    border: none;
+    width: 100%;
+    padding: 3mm;
+    font-weight: bold;
+    font-size: 100%;
+    border-radius: 3mm;
+    cursor: pointer;
+}
+
+input[type="button"]:hover{
+    background-color: rgb(255, 136, 0);
+}
+
+form{
+    width: 98%;
+    border: 1mm solid black;
+    padding: 3mm;
+}
+
+.PersonalSection input[type="text"], input[type="number"], input[type="email"]{
+    border: 1mm;
+    border-radius: 1mm;
+    width: fit-content;
+    height: 6mm;
+}
+
+.PaymentSection select{
+    border: 1mm;
+    border-radius: 1mm;
+    width: fit-content;
+    height: 6mm;
+}
+
+p{
+    color: white;
+}
+
